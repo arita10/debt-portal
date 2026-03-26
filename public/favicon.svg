@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Green circle background -->
+  <circle cx="16" cy="16" r="16" fill="#22c55e"/>
+  <!-- Price tag -->
+  <path d="M9 6 L23 6 Q26 6 26 9 L26 17 Q26 20 24 22 L17 28 Q16 29 15 28 L8 22 Q6 20 6 17 L6 9 Q6 6 9 6 Z" fill="#16a34a"/>
+  <!-- Tag hole -->
+  <circle cx="16" cy="10" r="1.8" fill="#22c55e"/>
+  <!-- Cart body -->
+  <rect x="10" y="13" width="12" height="8" rx="1.5" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Cart dividers -->
+  <line x1="14.5" y1="13" x2="14.5" y2="21" stroke="#ffffff" stroke-width="0.8"/>
+  <line x1="18.5" y1="13" x2="18.5" y2="21" stroke="#ffffff" stroke-width="0.8"/>
+  <line x1="10" y1="17" x2="22" y2="17" stroke="#ffffff" stroke-width="0.8"/>
+  <!-- Cart handle -->
+  <path d="M7 11 L9 11 L10 13" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wheels -->
+  <circle cx="13" cy="23" r="1.5" fill="#ffffff"/>
+  <circle cx="19" cy="23" r="1.5" fill="#ffffff"/>
+</svg>
