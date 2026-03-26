@@ -43,12 +43,10 @@ export default function LoginPage({ onLogin }) {
             <label className={styles.label}>Ev Numarası</label>
             <input
               className={styles.input}
-              type="number"
-              inputMode="numeric"
-              pattern="[0-9]*"
+              type="text"
               placeholder="Örn: 12"
               value={homeNo}
-              onChange={(e) => setHomeNo(e.target.value.replace(/\D/g, ''))}
+              onChange={(e) => setHomeNo(e.target.value)}
               autoComplete="off"
             />
           </div>
