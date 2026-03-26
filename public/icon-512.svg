@@ -1,4 +1,22 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'>
-  <rect width='512' height='512' rx='100' fill='#2563eb'/>
-  <text x='256' y='350' font-size='280' text-anchor='middle' fill='white'>V</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Green rounded background -->
+  <rect width="512" height="512" rx="100" fill="#22c55e"/>
+  <!-- Price tag -->
+  <path d="M148 70 L364 70 Q408 70 408 114 L408 264 Q408 296 388 316 L268 428 Q256 440 244 428 L124 316 Q104 296 104 264 L104 114 Q104 70 148 70 Z" fill="#16a34a"/>
+  <!-- Tag hole -->
+  <circle cx="256" cy="136" r="26" fill="#22c55e"/>
+  <!-- Cart body -->
+  <rect x="156" y="196" width="200" height="128" rx="18" fill="none" stroke="#ffffff" stroke-width="18"/>
+  <!-- Cart grid -->
+  <line x1="222" y1="196" x2="222" y2="324" stroke="#ffffff" stroke-width="10"/>
+  <line x1="290" y1="196" x2="290" y2="324" stroke="#ffffff" stroke-width="10"/>
+  <line x1="156" y1="258" x2="356" y2="258" stroke="#ffffff" stroke-width="10"/>
+  <!-- Cart handle -->
+  <path d="M110 172 L140 172 L156 196" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wheels -->
+  <circle cx="192" cy="346" r="22" fill="#ffffff"/>
+  <circle cx="320" cy="346" r="22" fill="#ffffff"/>
+  <!-- App name -->
+  <text x="256" y="430" font-size="30" font-weight="800" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" letter-spacing="1">BALCI MARKET</text>
+  <text x="256" y="468" font-size="24" font-weight="600" text-anchor="middle" fill="#dcfce7" font-family="Arial,sans-serif">Defterim</text>
 </svg>

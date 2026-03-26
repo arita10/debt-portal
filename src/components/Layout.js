@@ -10,7 +10,7 @@ export default function Layout({ children, onLogout }) {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <span className={styles.logo}>Veresiye Hesabım</span>
+        <span className={styles.logo}>Balcı Market Defterim</span>
         <button className={styles.logoutBtn} onClick={handleLogout}>Çıkış</button>
       </header>
 

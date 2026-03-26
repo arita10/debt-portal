@@ -1,11 +1,11 @@
 {
-  "name": "Veresiye Hesabım",
-  "short_name": "Veresiye",
+  "name": "Balcı Market Defterim",
+  "short_name": "Defterim",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2563eb",
-  "description": "Veresiye hesabınızı takip edin",
+  "theme_color": "#22c55e",
+  "description": "Balcı Market veresiye defterinizi takip edin",
   "icons": [
     {
       "src": "/icon-192.svg",

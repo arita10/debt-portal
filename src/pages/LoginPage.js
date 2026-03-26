@@ -32,8 +32,9 @@ export default function LoginPage({ onLogin }) {
     <div className={styles.page}>
       <div className={styles.card}>
         <div className={styles.logoWrap}>
-          <div className={styles.logoIcon}>🏪</div>
-          <h1 className={styles.title}>Veresiye Hesabım</h1>
+          <div className={styles.logoIcon}>🛒</div>
+          <h1 className={styles.title}>Balcı Market</h1>
+          <p className={styles.brand}>Defterim</p>
           <p className={styles.subtitle}>Hesabınıza giriş yapın</p>
         </div>
 

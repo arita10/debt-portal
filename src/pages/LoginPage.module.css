@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%);
+  background: linear-gradient(135deg, #15803d 0%, #22c55e 50%, #4ade80 100%);
   padding: 20px;
 }
 
@@ -22,19 +22,26 @@
 }
 
 .logoIcon {
-  font-size: 48px;
-  margin-bottom: 12px;
+  font-size: 52px;
+  margin-bottom: 10px;
 }
 
 .title {
-  font-size: 22px;
-  font-weight: 700;
-  color: #1e293b;
-  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #15803d;
+  margin-bottom: 2px;
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: 600;
+  color: #22c55e;
+  margin-bottom: 8px;
 }
 
 .subtitle {
-  font-size: 14px;
+  font-size: 13px;
   color: #64748b;
 }
 
@@ -68,7 +75,7 @@
 }
 
 .input:focus {
-  border-color: #2563eb;
+  border-color: #22c55e;
   background: white;
 }
 
@@ -83,7 +90,7 @@
 }
 
 .submitBtn {
-  background: #2563eb;
+  background: #22c55e;
   color: white;
   border: none;
   padding: 14px;
@@ -100,7 +107,7 @@
 }
 
 .submitBtn:hover:not(:disabled) {
-  background: #1d4ed8;
+  background: #16a34a;
 }
 
 .submitBtn:disabled {
