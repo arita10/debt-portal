@@ -43,11 +43,12 @@ export default function LoginPage({ onLogin }) {
             <label className={styles.label}>Ev Numarası</label>
             <input
               className={styles.input}
-              type="text"
+              type="number"
               inputMode="numeric"
+              pattern="[0-9]*"
               placeholder="Örn: 12"
               value={homeNo}
-              onChange={(e) => setHomeNo(e.target.value)}
+              onChange={(e) => setHomeNo(e.target.value.replace(/\D/g, ''))}
               autoComplete="off"
             />
           </div>
@@ -60,7 +61,7 @@ export default function LoginPage({ onLogin }) {
               inputMode="tel"
               placeholder="05XX XXX XX XX"
               value={telNo}
-              onChange={(e) => setTelNo(e.target.value)}
+              onChange={(e) => setTelNo(e.target.value.replace(/\D/g, ''))}
               autoComplete="tel"
             />
           </div>
